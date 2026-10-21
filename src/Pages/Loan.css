@@ -1,0 +1,44 @@
+.loan-container {
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+}
+.loan-para {
+    margin-top: -5px;
+    color: white;
+}
+.loan-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: white;
+    padding-top: -20px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    height: 200px;
+    width: 95%;
+    color: black;
+    border-radius: 10px;
+}
+.loan-box h2 {
+    color: blue;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.loan-box h3 {
+    color: black;
+    font-size: 1.3rem;
+}
+.lb-link {
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 8px;
+    margin: 20px;
+    text-decoration: none;
+}

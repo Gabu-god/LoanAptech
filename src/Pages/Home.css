@@ -1,0 +1,60 @@
+.home-container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    width: 100%;   
+}
+.home-container h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: black;
+
+    margin: auto;
+}
+.btn {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+}
+.card1 h3 {
+    color: blue;
+    
+} 
+.card1 h4, p {
+    color: black;
+}
+.para{
+    display: flex;
+    gap: 10px;
+}
+.dot {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    background-color: blue;
+}
